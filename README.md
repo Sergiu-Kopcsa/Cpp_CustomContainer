@@ -26,6 +26,7 @@ The method to assign will be called "assign" and will have 3 arguments:
 - keyEnd of type Key which represents the right key of the interval ")"
 - value of type Value which represents value which must be assigned to the set of keys [keyBegin, keyEnd).
 There also must be a method "clear" which will assign all possible values to the default key.
+If the keyBegin is < keyEnd, the value must not be assigned
 
 ## Example
 
