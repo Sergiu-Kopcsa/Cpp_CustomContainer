@@ -27,7 +27,7 @@ The method to assign will be called "assign" and will have 3 arguments:
 - value of type Value which represents value which must be assigned to the set of keys [keyBegin, keyEnd).
 
 
-There also must be a method "clear" which will assign all possible values to the default key.
+There also must be a method "clear" which will assign all possible values to the default key.<br>
 If the keyBegin is < keyEnd, the value must not be assigned
 
 ## Example
