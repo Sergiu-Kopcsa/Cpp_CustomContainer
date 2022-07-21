@@ -35,9 +35,9 @@ The default key is: 1
 
 User retrives key for value "C" and receives key 1
 
-User assigns the key 2 to values "B" to "E"
-User retrives key for value "D" and receives key 2
-User retrives key for value "E" and receives key 1
+User assigns the key 2 to values "B" to "E"<br>
+User retrives key for value "D" and receives key 2<br>
+User retrives key for value "E" and receives key 1<br>
 
 User assigns the key 3 to values "C" to "D"<br>
 User retrives key for value "A" and receives key 1<br>
