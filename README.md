@@ -28,7 +28,9 @@ The method to assign will be called "assign" and will have 3 arguments:
 
 
 There also must be a method "clear" which will assign all possible values to the default key.<br>
-If the keyBegin is < keyEnd, the value must not be assigned
+If the keyBegin is < keyEnd, the value must not be assigned. <br>
+The implementation of CustomMultiValueMap must be done in the cpp.
+No additional methods (private,public or protected) are accepted for CustomMultiValueMap.
 
 ## Example
 
