@@ -22,9 +22,11 @@ The key and values can be of any type:
 The name of the new data type has to be "CustomMultiValueMap"
 The method to retrive will be called "retrive" and which return the key of the type Key
 The method to assign will be called "assign" and will have 3 arguments:
-- keyBegin of type Key which represents the left key of the interval "["
-- keyEnd of type Key which represents the right key of the interval ")"
+- keyBegin of type Key which represents the left key of the interval "\[".
+- keyEnd of type Key which represents the right key of the interval ")".
 - value of type Value which represents value which must be assigned to the set of keys [keyBegin, keyEnd).
+
+
 There also must be a method "clear" which will assign all possible values to the default key.
 If the keyBegin is < keyEnd, the value must not be assigned
 
